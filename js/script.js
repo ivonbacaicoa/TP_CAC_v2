@@ -67,10 +67,10 @@ resume.addEventListener("click", (e) => {
       html: `<p>${nameInput.value} ${surname.value}</p>
       <p>Hemos enviado la informacion a: ${email.value}</p>
       <p>${divTotal.textContent}</p>`,
-      confirmButtonText: "Seguir comprando",
+      confirmButtonText: "Continuar",
     }).then((result) => {
       if (result.isConfirmed) {
-        window.location.href = "./tickets.html";
+       window.location.href = "./index.html";
       }
     });
   }
